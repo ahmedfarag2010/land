@@ -7,14 +7,14 @@ window.onload = () => {
 
 //-- Expand and collapse side menu
 expand_and_collapse = () => {
-    // $(document).on('swiperight', function() {
-    //     $('.sidemenu').addClass("active");
-    //     $('.expand_collapse').addClass("active");
-    // });
-    // $(document).on('swipeleft', function() {
-    //     $('.sidemenu').removeClass("active");
-    //     $('.expand_collapse').removeClass("active");
-    // });
+    $(document).on('swiperight', function() {
+        $('.sidemenu').addClass("active");
+        $('.expand_collapse').addClass("active");
+    });
+    $(document).on('swipeleft', function() {
+        $('.sidemenu').removeClass("active");
+        $('.expand_collapse').removeClass("active");
+    });
     $('.expand_collapse').click(function() {
         if ($(this).hasClass('active')) {
             $(this).removeClass('active')
