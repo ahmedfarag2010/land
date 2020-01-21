@@ -353,6 +353,7 @@
   body{
     padding-top: 60px;
     touch-action: none;
+    overflow: auto;
   }
   .header{
       position: fixed;
