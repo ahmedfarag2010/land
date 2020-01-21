@@ -352,7 +352,7 @@
 
   body{
     padding-top: 60px;
-    touch-action: none;
+    /* touch-action: none; */
     overflow: auto;
   }
   .header{
